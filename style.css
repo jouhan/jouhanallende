@@ -1,0 +1,45 @@
+html {
+  margin:0;
+  padding:0;
+}
+
+body {
+  padding: 40px;
+  font-family: Century Gothic;
+  font-size: 36px;
+  font-weight: normal;
+  color: #333333;
+  background-color: #E3D7FF;
+}
+
+#content {
+  margin: 0 auto;
+  width: 861px;
+}
+
+h1 {
+  font-family: Palatino;
+  font-size: 48px;
+  color: #000000;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #8164CC;
+}
+
+a:hover {
+  color: #7861B2;
+}
+
+#image {
+  display: inline-block;
+  padding-right: 40px;
+  vertical-align: center;
+}
+
+#prologue {
+  display: inline-block;
+  width: 520px;
+  line-height: 1.3em;
+}
