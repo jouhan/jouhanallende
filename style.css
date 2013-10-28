@@ -1,26 +1,28 @@
-html {
-  margin:0;
+* {
+  margin:0 auto;
   padding:0;
 }
 
-body {
-  padding: 40px;
-  font-family: Century Gothic;
-  font-size: 36px;
-  font-weight: normal;
-  color: #333333;
-  background-color: #E3D7FF;
+html, body {
+  height: 100%;
 }
 
-#content {
-  margin: 0 auto;
-  width: 861px;
+body {
+  padding: 40px, 0, 0, 0;
+  font-family: "Helvetica";
+  font-size: 24px;
+  font-weight: normal;
+  color: #333333;
+  background-color: #F9F9F9;
+  overflow: hidden;
 }
 
 h1 {
-  font-family: Palatino;
-  font-size: 48px;
-  color: #000000;
+  font-size: 92px;
+  color: #333333;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 a:link, a:visited {
@@ -29,17 +31,32 @@ a:link, a:visited {
 }
 
 a:hover {
-  color: #7861B2;
-}
-
-#image {
-  display: inline-block;
-  padding-right: 40px;
-  vertical-align: center;
+  color: #7D9EFF;
 }
 
 #prologue {
-  display: inline-block;
-  width: 520px;
   line-height: 1.3em;
+  max-width: 468px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
+#footer {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+
+li {
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+li.img {
+  margin: 6px 38px;
+    
+}
+
