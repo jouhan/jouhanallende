@@ -7,14 +7,22 @@
   <meta name="description" content="Jouhan Allende's personal webpage.">
   <meta name="author" content="Jouhan Allende">
   <link rel="stylesheet" href="style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
     ga('create', 'UA-36472360-2', 'jouhanallende.com');
     ga('send', 'pageview');
+  </script>
+  <script>
+    $(function(){
+      $("a[data-ga-link='true']").click(function(e){
+        ga('send', 'event', 'Outbound Links', 'click', e.currentTarget.href);
+      });
+    });
   </script>
 </head>
 
@@ -24,13 +32,13 @@
 <div id="content">
   <h1>jouhan allende</h1>
   <div id="prologue">
-    A Computer Science undergrad and <a href="http://www.tfrrs.org/athletes/3244554.html" target="_blank">runner</a> from RIT. I was a Developer at Snip.it (RIP), but my real love for products caused me to pursue <a href="http://www.linkedin.com/in/jouhanallende" target="_blank">Product Management</a> at Yahoo. I'm introducing myself to <a href="http://jouban.tumblr.com/" target="_blank">art & design</a> in my free time, and <a href="http://www.strava.com/athletes/1784668" target="_blank">run</a> and <a href="http://www.flickr.com/photos/jouhan/" target="_blank">take photos</a> sparingly.
+    A Computer Science undergrad and <a href="http://www.tfrrs.org/athletes/3244554.html" data-ga-link='true' target="_blank" >runner</a> from RIT. I was a Developer at Snip.it (RIP), but my real love for products caused me to pursue <a href="http://www.linkedin.com/in/jouhanallende" target="_blank" data-ga-link='true'>Product Management</a> at Yahoo. I'm introducing myself to <a href="http://jouban.tumblr.com/" target="_blank" data-ga-link='true'>art & design</a> in my free time, and <a href="http://www.strava.com/athletes/1784668" target="_blank" data-ga-link='true'>run</a> and <a href="http://www.flickr.com/photos/jouhan/" target="_blank" data-ga-link='true'>take photos</a> sparingly.
   </div>
   <div id="footer">
   <ol>
-    <li><a href="http://jouban.tumblr.com" target="_blank"><img src="images/tumblr-icon.png" /></a></li>
-    <li><a href="https://twitter.com/jouhanallende" target="_blank"><img src="images/twitter-icon.png" /></a></li>
-    <li><a href="https://www.facebook.com/jouhanallende" target="_blank"><img src="images/facebook-icon.png" /></a></li>
+    <li><a href="http://jouban.tumblr.com" target="_blank" data-ga-link='true'><img src="images/tumblr-icon.png" /></a></li>
+    <li><a href="https://twitter.com/jouhanallende" target="_blank" data-ga-link='true'><img src="images/twitter-icon.png" /></a></li>
+    <li><a href="https://www.facebook.com/jouhanallende" target="_blank" data-ga-link='true'><img src="images/facebook-icon.png" /></a></li>
   </ol>
 </div>
 </div>
