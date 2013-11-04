@@ -15,10 +15,11 @@ body {
   color: #333333;
   background-color: #F9F9F9;
   overflow: hidden;
+  width:100%;
 }
 
 h1 {
-  font-size: 92px;
+  font-size: 80px;
   color: #000000;
   text-align: center;
   padding-top: 40px;
@@ -32,13 +33,6 @@ a:link, a:visited {
 
 a:hover {
   color: #7D9EFF;
-}
-
-#prologue {
-  line-height: 1.3em;
-  max-width: 468px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 #footer {
