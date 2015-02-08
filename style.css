@@ -8,48 +8,62 @@ html, body {
 }
 
 body {
-  padding: 40px, 0, 0, 0;
-  font-family: "Helvetica";
-  font-size: 24px;
-  font-weight: normal;
-  color: #333333;
+  padding: 40px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  font-size:32px;
+  color: #555555;
   background-color: #F9F9F9;
   overflow: hidden;
   width:100%;
 }
 
-h1 {
-  font-size: 80px;
-  color: #000000;
+header {
+  width: 100%;
   text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom:20px;
+}
+
+h1 {
+  font-weight: 300;
+  font-size:32px;
+  display:inline;
+}
+
+#main {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
 }
 
 a:link, a:visited {
   text-decoration: none;
-  color: #8164CC;
 }
 
 a:hover {
-  color: #7D9EFF;
+  font-style: italic;
 }
 
-#footer {
-  position: absolute;
-  bottom: 40px;
+a#reading {
+  color: #C87C7E;
+}
+a#writing {
+  color: #CE3868;
+}
+a#painting {
+  color: #391658;
+}
+a#rambling {
+  color: #445B8D;
+}
+a#pming {
+  color: #279CA6;
+}
+
+footer {
+  padding-top: 20px;
   width: 100%;
   text-align: center;
 }
-
-
-li {
-  display: inline-block;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
-li.img {
-  margin: 6px 38px;
-}
-
