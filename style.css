@@ -8,7 +8,8 @@ html, body {
 }
 
 body {
-  padding: 40px;
+  padding-top: 40px;
+  max-width: 620px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 300;
   font-size:32px;
@@ -21,7 +22,7 @@ body {
 header {
   width: 100%;
   text-align: center;
-  padding-bottom:20px;
+  padding-bottom:25px;
 }
 
 h1 {
@@ -63,7 +64,7 @@ a#pming {
 }
 
 footer {
-  padding-top: 20px;
+  padding-top: 25px;
   width: 100%;
   text-align: center;
 }
