@@ -23,6 +23,7 @@ header {
   width: 100%;
   text-align: center;
   padding-bottom:25px;
+  display: inline-block;
 }
 
 h1 {
@@ -31,15 +32,32 @@ h1 {
   display:inline;
 }
 
+h2 {
+  font-weight: 300;
+  font-size:24px;
+  padding-top:20px;
+}
+
 #main {
   text-align: center;
 }
 
+#records {
+  font-size: 18px;
+}
+
 li {
+  list-style-type: none;
+  padding-left:40px;
+}
+
+li.inline {
+  padding:0;
   display: inline-block;
 }
 
 a:link, a:visited {
+  color: #C87C7E;
   text-decoration: none;
 }
 
